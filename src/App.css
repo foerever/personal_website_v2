@@ -48,3 +48,8 @@ body {
   text-align: center;
   z-index: 1;
 }
+
+.about_container {
+  padding-top: 30%;
+  text-align: center;
+}

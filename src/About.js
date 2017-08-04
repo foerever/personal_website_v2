@@ -1,12 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux'
-import Particles from 'react-particles-js';
-import About from "./About.js"
-import Landing from "./Landing.js"
-
 import "./App.css"
 
-class App extends Component {
+class About extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -15,9 +11,8 @@ class App extends Component {
 
     render(){
         return (
-            <div>
-                <Landing/>
-                <About/>
+            <div className="about_container">
+                <h1>About Me</h1>
             </div>
         );
     };
@@ -25,4 +20,4 @@ class App extends Component {
 }
 
 
-export default App;
+export default About;
