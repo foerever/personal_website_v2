@@ -1,23 +1,43 @@
-import React, { PropTypes } from 'react'
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux'
-import Sidebar from './sidebar'
-import Display from './display'
+import Particles from 'react-particles-js';
 
-export const App = ({ currentPage }) => {
+import "./App.css"
 
-    return (
-      <div>
-        <Sidebar/>
-        <Display/>   
-    </div>
-    )
-};
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+        }
+    }
 
-App.propTypes = {
-    currentPage: PropTypes.string.isRequired,
-};
+    render(){
+        return (
+            <div>
 
-export default connect(
-    (state) => ({ currentPage: state.currentPage }),
-    (dispatch) => ({ })
-)(App)
+            <div className="landing_text">
+                <h1>Hey there, I'm Anthony</h1>
+            </div>
+
+            <div className="landing_page">
+                <Particles params={{
+                        particles: {
+                            line_linked: {
+                                shadow: {
+                                    enable: true,
+                                    color: "#3CA9D1",
+                                    blur: 5
+                                }
+                            }
+                        }
+                    }}/>
+            </div>
+
+            </div>
+        );
+    };
+ 
+}
+
+
+export default App;
