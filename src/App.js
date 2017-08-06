@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import Particles from 'react-particles-js';
 import About from "./About.js"
 import Landing from "./Landing.js"
-
+import Projects from "./Projects.js"
 import "./App.css"
 
 class App extends Component {
@@ -18,6 +18,7 @@ class App extends Component {
             <div>
                 <Landing/>
                 <About/>
+                <Projects/>
             </div>
         );
     };

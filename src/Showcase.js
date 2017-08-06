@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux'
 import "./App.css"
 
-class About extends Component {
+class Showcase extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -11,10 +11,9 @@ class About extends Component {
 
     render(){
         return (
-            <div className="about_container">
-                <h1>About Me</h1>
-                <p>I'm a software developer.</p>
-                <p>Many more paragraphs </p>
+            <div className="showcase_container">
+                <h2>{this.props.projectName}</h2>
+                <img src={this.props.projectImage} width="100" height="100"/> 
             </div>
         );
     };
@@ -22,4 +21,4 @@ class About extends Component {
 }
 
 
-export default About;
+export default Showcase;
