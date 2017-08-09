@@ -37,27 +37,27 @@ body {
   left:0;
   width: 100%;
   height: 100%;
-  background-color: black;
-  background-image: linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ), url("http://i.imgur.com/jm3ZxSJ.jpg");
+  background-color: #333743;
+  /* background-image: linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ), url("http://i.imgur.com/jm3ZxSJ.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  z-index: -1;
 }
 
 .landing_text h1 {
   font-family: 'Raleway', sans-serif;
+  position: absolute;
+  width: 100%;
   padding-top: 25%;
   color:white;
   text-align: center;
-  z-index: 1;
 }
 
 .about_container {
   font-family: 'Raleway', sans-serif;
-  padding-top: 30%;
   text-align: center;
   color: #686868;
+  padding-top:60%;
 }
 
 .projects_container {

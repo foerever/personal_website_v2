@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux'
 import Particles from 'react-particles-js';
-
+import particlesConfiguration from "./particlesConfiguration"
 import "./App.css"
 
 class Landing extends Component {
@@ -13,27 +13,13 @@ class Landing extends Component {
 
     render(){
         return (
-            <div>
+                <div className="landing_page">
+                    <div className="landing_text">
+                        <h1>Hey there, I'm Anthony</h1>
+                    </div>
 
-                <div className="landing_text">
-                    <h1>Hey there, I'm Anthony</h1>
+                    <Particles height='100%' width='100%' style={{position: 'absolute'}} params={particlesConfiguration}/> 
                 </div>
-
-            <div className="landing_page">
-                <Particles params={{
-                        particles: {
-                            line_linked: {
-                                shadow: {
-                                    enable: true,
-                                    color: "#3CA9D1",
-                                    blur: 5
-                                }
-                            }
-                        }
-                    }}/>
-            </div>
-
-            </div>
         );
     };
  
