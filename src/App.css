@@ -31,6 +31,29 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+  font-size: 3.2rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  text-align: left;
+  text-indent: 5%;
+  font-size: 1.5rem;
+}
+.icons {
+  padding: 0 5% 0 5%;
+}
+
+
 .landing_page {
   position: absolute;
   top:0;
@@ -49,10 +72,21 @@ body {
   font-family: 'Raleway', sans-serif;
   position: absolute;
   width: 100%;
-  padding-top: 25%;
+  margin-top: 25%;
   color:white;
   text-align: center;
 }
+
+.landing_icons {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  width: 100%;
+  margin-top: 30%;
+  color:white;
+  text-align: center;
+  z-index: 1;
+}
+
 
 .about_container {
   font-family: 'Raleway', sans-serif;
@@ -61,10 +95,7 @@ body {
   padding-top:60%;
 }
 
-.about_container p {
-  text-align: left;
-  text-indent: 5%;
-}
+
 
 .projects_container {
   font-family: 'Raleway', sans-serif;

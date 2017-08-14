@@ -20,7 +20,7 @@ class About extends Component {
                     </div>
 
                     <div className="col-xs-8">
-                        <h1>About Me</h1>
+                        <h1>About Me </h1>
                         <p>
                             I'm currently pursuing a BS in computer science at Rice University. 
                             I love coding and am always looking for ways to share this passion with others. 
