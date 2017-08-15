@@ -5,9 +5,11 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-fullpage": "^0.1.18",
     "react-redux": "^5.0.5",
     "react-snowfetti": "^1.2.3",
-    "redux": "^3.7.1"
+    "redux": "^3.7.1",
+    "webpack": "^3.5.4"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

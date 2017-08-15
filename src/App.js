@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { connect } from 'react-redux'
+import {SectionsContainer, Section} from 'react-fullpage';
 import Particles from 'react-particles-js';
 import About from "./About.js"
 import Landing from "./Landing.js"
@@ -12,14 +12,27 @@ class App extends Component {
         this.state = {
         }
     }
+    
 
     render(){
+      const options = {
+        scrollBar: true,
+        delay: 1000,
+        navigation: true,
+        verticalAlign: false,
+        sectionPaddingTop: '0px',
+        sectionPaddingBottom: '0px',
+        arrowNavigation: true
+        }
         return (
             <div>
-                <Landing/>
+                <SectionsContainer {...options}>
+                    <Section><Landing/></Section>
+                </SectionsContainer>
                 <About/>
                 <Projects/>
             </div>
+
         );
     };
  

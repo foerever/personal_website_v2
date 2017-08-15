@@ -19,7 +19,7 @@ class About extends Component {
                         <img src="http://i.imgur.com/2k2QxRe.jpg" width="50%" height="50%"/>   
                     </div>
 
-                    <div className="col-xs-8">
+                    <div className="col-xs-7">
                         <h1>About Me </h1>
                         <p>
                             I'm currently pursuing a BS in computer science at Rice University. 
