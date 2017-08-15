@@ -12,7 +12,7 @@ class About extends Component {
     render(){
         return (
 
-            <div className="about_container">
+            <div id="about_me" className="about_container">
 
                 <div className="row">
                     <div className="col-xs-4">

@@ -22,6 +22,10 @@ class Landing extends Component {
                             <a href="https://www.linkedin.com/in/sungsoocho/"><i className="col-xs-1 fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
                             <a href={resume} download="anthony_cho_resume"><i className="col-xs-1 fa fa-file-pdf-o fa-4x" aria-hidden="true"></i></a>
                         </div>
+
+                        <div className="landing_down">
+                            <a href="#about_me"><i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i></a>
+                        </div>
                     </div>
 
                     <Particles height='100%' width='100%' style={{position: 'absolute'}} params={particlesConfiguration}/> 
