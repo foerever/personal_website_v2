@@ -3,7 +3,7 @@ import {SectionsContainer, Section} from 'react-fullpage';
 import Particles from 'react-particles-js';
 import About from "./About.js"
 import Landing from "./Landing.js"
-import Projects from "./Projects.js"
+import Projects from "./projects/Projects.js"
 import "./App.css"
 
 class App extends Component {
