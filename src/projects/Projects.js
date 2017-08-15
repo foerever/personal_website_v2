@@ -20,6 +20,7 @@ class Projects extends Component {
         return (
             <div className="projects_container">
                 <h1>Projects</h1>
+                <h4>Click to learn more!</h4>
                 {renderProjects(showcaseData)}
             </div>
 
