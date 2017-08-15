@@ -36,7 +36,6 @@ class App extends Component {
                 <Projects/>
                 <Footer/>
             </div>
-
         );
     };
  

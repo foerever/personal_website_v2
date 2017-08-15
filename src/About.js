@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux'
 import "./App.css"
+import Responsive from 'react-responsive';
+var MediaQuery = require('react-responsive');
 
 class About extends Component {
     constructor(props) {
@@ -15,9 +17,16 @@ class About extends Component {
             <div id="about_me" className="about_container">
 
                 <div className="row">
-                    <div className="col-xs-4 about_image">
-                        <img src="http://i.imgur.com/2k2QxRe.jpg" width="50%" height="50%"/>   
-                    </div>
+                    <MediaQuery query="(min-width: 800px)">
+                        <div className="col-xs-4 about_image">
+                            <img src="http://i.imgur.com/2k2QxRe.jpg" width="50%" height="50%"/>   
+                        </div>
+                    </MediaQuery>
+
+                    <MediaQuery query="(max-width: 800px)">
+                        <div className="col-xs-3">
+                        </div>
+                    </MediaQuery>
 
                     <div className="col-xs-7">
                         <h1>About Me </h1>
