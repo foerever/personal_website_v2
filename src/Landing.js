@@ -14,7 +14,7 @@ class Landing extends Component {
 
     render(){
         return (
-                <div className="landing_page">
+                <div className="landing_page" id="landing">
                     <div className="landing_text">
                         <h1>Hey there, I'm Anthony</h1>
                         <div className="landing_icons">

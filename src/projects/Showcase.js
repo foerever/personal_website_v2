@@ -23,6 +23,7 @@ class Showcase extends Component {
                 <div className="hidden_div description" id={this.state.originalId}>
                     <h1>{title}</h1>
                     <p>{description}</p>
+                    <p>Click <a href={link}><strong>here</strong></a> to learn more</p>
                 </div>
 
 

@@ -35,11 +35,11 @@ h1 {
   font-size: 3.2rem;
 }
 
-a {
+#landing a {
   color: white;
 }
 
-a:hover {
+#landing a:hover {
   font-size: 2rem;
   color: white;
 }
