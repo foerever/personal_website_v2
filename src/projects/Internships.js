@@ -3,25 +3,25 @@ import { connect } from 'react-redux'
 import "./projects.css"
 import "../App.css"
 import Showcase from "./Showcase.js"
-import showcaseData from './showcaseData.js'
+import internshipData from './internshipData.js'
 
-class Projects extends Component {
+class Internships extends Component {
     render(){
-        const renderProjects = (showcaseData) => {
-            let showcases = []
+        const renderProjects = (internshipData) => {
+            let internships = []
 
-            showcaseData.forEach(project => {
-            showcases.push(
+            internshipData.forEach(project => {
+            internships.push(
                 <Showcase key={project.title} {...project}></Showcase>
             )
             })
-            return showcases
+            return internships
         }
         return (
             <div className="container projects_container">
-                <h1>Projects</h1>
+                <h1>Internships</h1>
                 <h4>Click to learn more!</h4>
-                {renderProjects(showcaseData)}
+                {renderProjects(internshipData)}
             </div>
 
         );
@@ -30,4 +30,4 @@ class Projects extends Component {
 }
 
 
-export default Projects;
+export default Internships;
