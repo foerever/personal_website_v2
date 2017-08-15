@@ -5,6 +5,7 @@ import About from "./About.js"
 import Landing from "./Landing.js"
 import Projects from "./projects/Projects.js"
 import Internships from './projects/Internships.js'
+import Footer from './Footer.js'
 import "./App.css"
 
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
                 <About/>
                 <Internships/>
                 <Projects/>
+                <Footer/>
             </div>
 
         );

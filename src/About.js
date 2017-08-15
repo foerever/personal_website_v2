@@ -15,7 +15,7 @@ class About extends Component {
             <div id="about_me" className="about_container">
 
                 <div className="row">
-                    <div className="col-xs-4">
+                    <div className="col-xs-4 about_image">
                         <img src="http://i.imgur.com/2k2QxRe.jpg" width="50%" height="50%"/>   
                     </div>
 
