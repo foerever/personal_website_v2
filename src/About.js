@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import tingle from 'tingle.js'
 import "./App.css"
 import Responsive from 'react-responsive';
+import me from './images/me.jpg';
 var MediaQuery = require('react-responsive');
 
 class About extends Component {
@@ -48,7 +49,7 @@ class About extends Component {
                     {/* regular desktop usage */}
                     <MediaQuery query="(min-width: 801px)">
                         <div className="col-xs-4 about_image">
-                            <img src="http://i.imgur.com/2k2QxRe.jpg" width="50%" height="50%"/>   
+                            <img src={me} width="50%" height="50%"/>   
                         </div>
 
                         <div className="col-xs-7">
