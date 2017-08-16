@@ -87,6 +87,27 @@ p {
   z-index: 1;
 }
 
+.landing_icons_mobile {
+  font-family: 'Raleway', sans-serif;
+  position: absolute; 
+  width: 100%;
+  margin-top: 60%;
+  margin-left: 15%;
+  color:white;
+  text-align: center;
+  z-index: 1;
+}
+
+#landing_mobile a {
+  color: white;
+  font-size: .75rem;
+}
+
+#landing_mobile a:hover {
+  font-size: .9rem;
+  color: white;
+}
+
 .landing_down {
   font-family: 'Raleway', sans-serif;
   position: absolute; 
