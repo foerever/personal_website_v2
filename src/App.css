@@ -64,6 +64,7 @@ p {
   background-size: cover;
   background-position: 50% 50%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .landing_text h1 {
@@ -80,7 +81,7 @@ p {
   position: absolute; 
   width: 100%;
   margin-top: 30%;
-   margin-left: 37%; 
+  margin-left: 33%; 
   color:white;
   text-align: center;
   z-index: 1;

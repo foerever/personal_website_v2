@@ -9,8 +9,8 @@ class About extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            width: '0', 
-            height: '0' 
+            width: window.innerWidth, 
+            height: '0'
         };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
@@ -19,6 +19,8 @@ class About extends Component {
         return (
 
             <div id="about_me" className="about_container">
+
+                {/* more information to set within the modal  */}
                 <div className="description hide">
                     <h1>Full Description</h1>
                     <p>
@@ -38,9 +40,12 @@ class About extends Component {
                         My greatest interest, however, has always been in creating.
                         I grew up playing with legos, started working with VEX robots in the 5th grade, moved on to creating CAD designs and circuits in high school, and eventually fell in love with coding during an internship working with NASA's ICESat1 satellite.
                     </p>
+
                 </div>
 
                 <div className="row">
+
+                    {/* regular desktop usage */}
                     <MediaQuery query="(min-width: 800px)">
                         <div className="col-xs-4 about_image">
                             <img src="http://i.imgur.com/2k2QxRe.jpg" width="50%" height="50%"/>   
@@ -72,6 +77,7 @@ class About extends Component {
                         </div>
                     </MediaQuery>
 
+                    {/* if the user is using a smaller device or makes the viewport smaller */}
                     <MediaQuery query="(max-width: 800px)">
                         <div className="col-xs-10 col-xs-offset-1">
                             <h1>About Me (Brief) </h1>
@@ -94,6 +100,8 @@ class About extends Component {
             </div>
         );
     };
+
+    // dynamically update the viewport dimensions 
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
@@ -104,12 +112,17 @@ class About extends Component {
     }
 
     updateWindowDimensions() {
+        // update the width of the viewport upon a user resizing the window as well
         this.setState({ width: window.innerWidth, height: window.innerHeight });
-        console.log(this.state.width)
+
+        // only set the modal if the user has the option to view it 
         if (this.state.width < 800 && this.state.width > 0) {
-            var modal = new tingle.modal();
+            var modal = new tingle.modal()
+
+            // listens for a user to click on the more info option
             var more_information = document.getElementById('more_info');
-            console.log(more_information)
+
+            // sets the content of the modal if the viewport is correct
             modal.setContent(document.querySelector('.description').innerHTML);
             more_information.addEventListener('click', function(){
                 modal.open();

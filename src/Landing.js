@@ -16,11 +16,14 @@ class Landing extends Component {
         return (
                 <div className="landing_page" id="landing">
                     <div className="landing_text">
-                        <h1>Hey there, I'm Anthony</h1>
+                        <div>
+                            <h1>Hey there, I'm Anthony</h1>
+                        </div>
                         <div className="landing_icons">
-                            <a href="https://github.com/foerever"><i className="col-xs-1 fa fa-github fa-4x" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/sungsoocho/"><i className="col-xs-1 fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-                            <a href={resume} download="anthony_cho_resume"><i className="col-xs-1 fa fa-file-pdf-o fa-4x" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://github.com/foerever"><i className="col-xs-1 fa fa-github fa-4x" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/sungsoocho/"><i className="col-xs-1 fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+                            <a target="_blank" href={resume}><i className="col-xs-1 fa fa-file-pdf-o fa-4x" aria-hidden="true"></i></a>
+                            <a target="_blank" href="mailto:sc80@rice.edu"><i className="col-xs-1 fa fa-envelope-o fa-4x" aria-hidden="true"></i></a>
                         </div>
 
                         <div className="landing_down">

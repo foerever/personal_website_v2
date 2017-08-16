@@ -9,6 +9,8 @@ import './polaroid.css'
 class Showcase extends Component {
     constructor(props) {
         super(props);
+
+        // the unique IDs are just global counters to dynamically set content for each new instance of a showcase
         enableUniqueIds(this)
         this.state = {
             originalId: String(this.nextUniqueId()),
@@ -20,13 +22,15 @@ class Showcase extends Component {
         const { title, image, description, link } = this.props
         return (
             <div>
+
+                {/* description modal content */}
                 <div className="hidden_div description" id={this.state.originalId}>
                     <h1>{title}</h1>
                     <p>{description}</p>
                     <p>Click <a href={link}><strong>here</strong></a> to learn more</p>
                 </div>
 
-
+                {/* the jsx for the polaroid itself */}
                 <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                     <div className="polaroid_container" >
                         <div className="polaroid">
@@ -43,9 +47,14 @@ class Showcase extends Component {
     };
 
     componentDidMount() {
+        // initialize a new modal object
         var modal = new tingle.modal();
+
+        // listen for clicks on the more info option
         var more_information = document.getElementById(this.state.uniqueId);
         modal.setContent(document.getElementById(this.state.originalId))
+
+        // open the modal when the user wants information on a showcase
         more_information.addEventListener('click', function(){
             modal.open();
         });

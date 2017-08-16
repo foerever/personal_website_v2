@@ -7,6 +7,8 @@ import internshipData from './internshipData.js'
 
 class Internships extends Component {
     render(){
+
+        // function to prepare data to create showcases
         const renderProjects = (internshipData) => {
             let internships = []
 

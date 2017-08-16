@@ -7,6 +7,8 @@ import showcaseData from './showcaseData.js'
 
 class Projects extends Component {
     render(){
+        
+        // function to prepare data to create showcases
         const renderProjects = (showcaseData) => {
             let showcases = []
 
