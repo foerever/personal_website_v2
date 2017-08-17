@@ -1,3 +1,1 @@
-Just tinkering with React.JS outside of work environment to see if it's something I would use to build personal projects. 
-
-This may turn into my personal website...
+Current personal website created with ReactJS. You can see a rudimentary development at http://elegant-cannon.surge.sh/. Currently still under construction.
