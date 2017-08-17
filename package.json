@@ -25,5 +25,5 @@
     "eject": "react-scripts eject",
     "deploy" : "npm run build&&gh-pages -d build"
   },
-  "homepage": "https://foerever.github.io/"
+  "homepage": "https://foerever.github.io/foerever.github.io"
 }
