@@ -25,5 +25,5 @@
     "eject": "react-scripts eject",
     "deploy" : "npm run build&&gh-pages -d build"
   },
-  "homepage": "https://foerever.github.io/personal_website_v2"
+  "homepage": "http://sungsoocho.net"
 }

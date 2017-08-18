@@ -48,7 +48,7 @@ class About extends Component {
 
                     {/* regular desktop usage */}
                     <MediaQuery query="(min-width: 801px)">
-                        <div className="col-xs-4 about_image">
+                        <div className="col-xs-4">
                             <img src={me} width="50%" height="50%"/>   
                         </div>
 
