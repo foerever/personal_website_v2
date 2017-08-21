@@ -1,4 +1,4 @@
-import icesat from '../images/icesat.jpeg'
+import icesat from '../images/icesat.jpg'
 import parkit from '../images/parkit.png'
 import sensorfield from '../images/sensorfield.png'
 

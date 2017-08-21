@@ -1,8 +1,8 @@
 import owlsecurity from '../images/owlsecurity.png'
 import sandals from '../images/sandals.png'
-import defBeats from '../images/defBeats.jpeg'
+import defBeats from '../images/defBeats.jpg'
 import modulate from '../images/modulate.png'
-import pluto from '../images/pluto.jpeg'
+import pluto from '../images/pluto.jpg'
 
 const showcaseData = [{
     title: 'Owl Security',

@@ -1,29 +1,42 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-fullpage": "^0.1.18",
     "react-html-id": "^0.1.1",
+    "react-particles-js": "^1.5.0",
     "react-redux": "^5.0.5",
     "react-responsive": "^1.3.4",
     "react-snowfetti": "^1.2.3",
     "redux": "^3.7.1",
     "tingle.js": "^0.11.0",
-    "webpack": "^3.5.4"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.7"
+    "webpack": "^3.5.4",
+    "yarn": "^0.27.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "start:dev": "yarn watch:server & yarn watch:client",
+    "watch:client": "webpack-dev-server --hot",
+    "build:client": "webpack -p --progress"
   },
-  "homepage": "http://sungsoocho.net"
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
 }
