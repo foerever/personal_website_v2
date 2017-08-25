@@ -18,9 +18,9 @@
     "yarn": "^0.27.5"
   },
   "scripts": {
-    "start:dev": "yarn watch:server & yarn watch:client",
-    "watch:client": "webpack-dev-server --hot",
-    "build:client": "webpack -p --progress"
+    "dev": "yarn watch:server & yarn watch:client",
+    "start": "webpack-dev-server --hot",
+    "build": "webpack -p --progress"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
