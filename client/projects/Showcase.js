@@ -26,12 +26,13 @@ class Showcase extends Component {
                 <div className="hidden_div description" id={this.state.originalId}>
                     <h1>{title}</h1>
                     <p>{description}</p>
+                    {/* have not found additional images for all projects yet so for now render an empty div if no video*/}
                     {                    
                         video ? 
                         <div className="video_wrapper">
                             <iframe src={media} width="560" height="349" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen/>
                         </div>
-                        : <div className="image_wrapper"><img src={media} height="300px" width="150px" alt=" "/></div>
+                        : <div></div>
                     }
                     <h5>Click <a href={link}><strong>here</strong></a> to learn more</h5>
                 </div>
