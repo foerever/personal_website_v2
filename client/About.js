@@ -58,7 +58,7 @@ class About extends Component {
                                 Hi! My name is Sung Soo (Anthony) Cho. I'm currently pursuing a BS in computer science at Rice University. 
                                 I love coding and am always looking for ways to share this passion with others. 
                                 For me, this means working to build Rice's CS community through my role as Treasurer of Rice CS Club.
-                                For example, I co-founded Rice's first Learnathon, an amalgam of hackathons and workshops aimed at giving students opportunities to develop new, practical skill sets.                            
+                                For example, I co-founded Rice's first Learnathon, a combination of a hackathon and several workshops aimed at giving students opportunities to develop new, practical skill sets.                            
                                 As a hackathon enthusiast, it also means helping organize HackRice and actively working to build a "hacker" culture here.
                             </p>
 
