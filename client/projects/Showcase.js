@@ -41,7 +41,7 @@ class Showcase extends Component {
                     <div className="polaroid_container" >
                         <div className="polaroid">
                             <div className="polaroid-image" id={this.state.uniqueId}>
-                                <img src={image} alt="" height="200px"/>
+                                <img src={image} alt=" " height="200px"/>
                             </div>
                             <h3>{title}</h3>
                         </div>
