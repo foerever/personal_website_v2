@@ -19,15 +19,21 @@ class Showcase extends Component {
     }
 
     render(){
-        const { title, image, description, link } = this.props
+        const { title, image, description, link, video, media } = this.props
         return (
             <div>
-
                 {/* description modal content */}
                 <div className="hidden_div description" id={this.state.originalId}>
                     <h1>{title}</h1>
                     <p>{description}</p>
-                    <p>Click <a href={link}><strong>here</strong></a> to learn more</p>
+                    {                    
+                        video ? 
+                        <div className="video_wrapper">
+                            <iframe src={media} width="560" height="349" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen/>
+                        </div>
+                        : <div className="image_wrapper"><img src={media} height="300px" width="150px" alt=" "/></div>
+                    }
+                    <h5>Click <a href={link}><strong>here</strong></a> to learn more</h5>
                 </div>
 
                 {/* the jsx for the polaroid itself */}
@@ -41,11 +47,10 @@ class Showcase extends Component {
                         </div>
                     </div>
                 </div>
-
             </div>
         );
     };
-
+    
     componentDidMount() {
         // initialize a new modal object
         var modal = new tingle.modal();
