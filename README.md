@@ -11,4 +11,4 @@ yarn start
 ```
 
 It'll be on localhost:8080. When you want to build you can do `yarn build`. 
-If this doesn't update the index.html, index_bundle.js, images, and resources you'll have to manually move them from dist after building (problem I'm still working on symlinks implementation still not "ideal").
+If this doesn't update the index.html, index_bundle.js, images, and resources in root you'll have to manually move them from dist after building (problem I'm still working on; symlinks implementation still not "ideal").
