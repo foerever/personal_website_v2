@@ -3,6 +3,9 @@ import sandals from '../images/sandals.png'
 import defBeats from '../images/defBeats.jpg'
 import modulate from '../images/modulate.png'
 import pluto from '../images/pluto.jpg'
+import old_website from '../images/old_website.png'
+import current_website from '../images/current_website.png'
+import rides_organizer from '../images/rides_organizer.png'
 
 const showcaseData = [{
     title: 'Owl Security',
@@ -43,6 +46,30 @@ const showcaseData = [{
     link: 'https://drive.google.com/file/d/0B_xBs4_GYsNDT0ZGeGFISDZncVU/view?usp=sharing',
     video: true,
     media: 'https://www.youtube.com/embed/yAk5NWFyCG4?ecver=2'
+  },
+  {
+    title: 'Old Personal Website',
+    image: old_website,
+    description: 'The first website I ever deployed built entirely in HTML/CSS',
+    link: 'https://github.com/foerever/personal_website_v1',
+    video: false,
+    media: ''
+  },
+  {
+    title: 'Current Personal Website',
+    image: current_website,
+    description: 'My current personal website published at sungsoocho.net built with ReactJS',
+    link: 'https://github.com/foerever/foerever.github.io',
+    video: false,
+    media: ''
+  },
+  {
+    title: 'Rides Organizer',
+    image: rides_organizer,
+    description: 'A web application I built by myself during PennApps XVI for college ministries. Rides Organizer automates the process of organizing rides for college ministries but the basic structure can be used for other purposes. *** EDIT: Repository currently private because I realized one of my commits had my password in it. Sorry!',
+    link: 'https://github.com/foerever/Rides-Organizer',
+    video: false,
+    media: ''
   }
 ]
 export default showcaseData

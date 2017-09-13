@@ -4,7 +4,7 @@ import tingle from 'tingle.js'
 import "./App.css"
 import Responsive from 'react-responsive';
 import me from './images/me.jpg';
-var MediaQuery = require('react-responsive');
+import MediaQuery from 'react-responsive';
 
 class About extends Component {
     constructor(props) {

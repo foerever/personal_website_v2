@@ -14,7 +14,7 @@ class Showcase extends Component {
         enableUniqueIds(this)
         this.state = {
             originalId: String(this.nextUniqueId()),
-            uniqueId: String(this.nextUniqueId()) 
+            uniqueId: String(this.nextUniqueId())
         }
     }
 
@@ -22,6 +22,7 @@ class Showcase extends Component {
         const { title, image, description, link, video, media } = this.props
         return (
             <div>
+
                 {/* description modal content */}
                 <div className="hidden_div description" id={this.state.originalId}>
                     <h1>{title}</h1>
