@@ -1,4 +1,4 @@
-Current personal website created with ReactJS. Currently still under constructions.
+Current personal website created with ReactJS. 
 
 Published at sungsoocho.net
 
