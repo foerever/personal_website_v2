@@ -47,23 +47,23 @@ const showcaseData = [{
     video: true,
     media: 'https://www.youtube.com/embed/yAk5NWFyCG4?ecver=2'
   },
-  {
-    title: 'Old Personal Website',
+{
+    title: 'Old Portfolio',
     image: old_website,
     description: 'The first website I ever deployed built entirely in HTML/CSS',
     link: 'https://github.com/foerever/personal_website_v1',
     video: false,
     media: ''
   },
-  {
-    title: 'Current Personal Website',
+{
+    title: 'Current Portfolio',
     image: current_website,
     description: 'My current personal website published at sungsoocho.net built with ReactJS',
     link: 'https://github.com/foerever/foerever.github.io',
     video: false,
     media: ''
   },
-  {
+{
     title: 'Rides Organizer',
     image: rides_organizer,
     description: 'A web application I built by myself during PennApps XVI for college ministries. Rides Organizer automates the process of organizing rides for college ministries but the basic structure can be used for other purposes. *** EDIT: Repository currently private because I realized one of my commits had my password in it. Sorry!',
