@@ -18,7 +18,7 @@ const showcaseData = [{
 {
     title: 'Sandals',
     image: sandals,
-    description: 'A proof-of-concept Android application that helps users interact within different social groups, including family, friends, and peers. Created at HackRice 2016.',
+    description: 'A proof of concept Android application that helps users interact within different social groups, including family, friends, and peers. Created at HackRice 2016.',
     link: 'https://github.com/foerever/Sandals',
     video: false,
     media: ''
