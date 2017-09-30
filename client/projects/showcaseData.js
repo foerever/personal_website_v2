@@ -74,7 +74,7 @@ const showcaseData = [{
 {
     title: 'DataDriven',
     image: datadriven,
-    description: 'A web application for HackRice 7 that organizes carpools based on google location history data. As a disclaimer, I was only able to contribute for about half the time I wanted to as I came down with a high fever. I wanted to be clear that I was not able to contribute much to this particular project!',
+    description: 'A web application for HackRice 7 that organizes carpools based on google location history data. As a disclaimer, I was only able to contribute for about half the time I wanted to as I came down with a high fever. I wanted to be clear that I was not able to contribute much to this particular project! Repository is currently private my apologies!',
     link: 'https://github.com/foerever/DataDriven',
     video: false,
     media: ''
