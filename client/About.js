@@ -36,8 +36,7 @@ class About extends Component {
                     </p>
 
                     <p>
-                        I was born in small city in South Korea called Pohang
-                        but was raised in Houston, TX where I've pursued a variety of interests ranging from gardening to breakdancing. 
+                        I was born in small city in South Korea called Pohang but was raised in Houston, TX where I've pursued a variety of interests ranging from gardening to breakdancing. 
                         My greatest interest, however, has always been in creating.
                         I grew up playing with legos, started working with VEX robots in the 5th grade, moved on to creating CAD designs and circuits in high school, and eventually fell in love with coding during an internship working with NASA's ICESat1 satellite.
                     </p>
@@ -70,8 +69,7 @@ class About extends Component {
                             </p>
 
                             <p>
-                                I was born in small city in South Korea called Pohang. 
-                                However, I was raised in Houston, TX where I've pursued a variety of interests ranging from gardening to breakdancing. 
+                                I was born in small city in South Korea called Pohang but was raised in Houston, TX where I've pursued a variety of interests ranging from gardening to breakdancing. 
                                 My greatest interest, however, has always been in creating.
                                 I grew up playing with legos, started working with VEX robots in the 5th grade, moved on to creating CAD designs and circuits in high school, and eventually fell in love with coding during an internship working with NASA's ICESat1 satellite.
                             </p> 
