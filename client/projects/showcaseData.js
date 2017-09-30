@@ -6,6 +6,7 @@ import pluto from '../images/pluto.jpg'
 import old_website from '../images/old_website.png'
 import current_website from '../images/current_website.png'
 import rides_organizer from '../images/rides_organizer.png'
+import datadriven from '../images/datadriven.png'
 
 const showcaseData = [{
     title: 'Owl Security',
@@ -64,12 +65,13 @@ const showcaseData = [{
     media: ''
   },
 {
-    title: 'Rides Organizer',
-    image: rides_organizer,
-    description: 'A web application I built by myself during PennApps XVI for college ministries. Rides Organizer automates the process of organizing rides for college ministries but the basic structure can be used for other purposes. *** EDIT: Repository currently private because I realized one of my commits had my password in it. Sorry!',
-    link: 'https://github.com/foerever/Rides-Organizer',
+    title: 'DataDriven',
+    image: datadriven,
+    description: 'A web application for HackRice 7 that organizes carpools based on google location history data. As a disclaimer, I was only able to contribute for about half the time I wanted to as I came down with a high fever. I wanted to be clear that I was not able to contribute much to this particular project!',
+    link: 'https://github.com/foerever/DataDriven',
     video: false,
     media: ''
-  }
+  },
+  
 ]
 export default showcaseData

@@ -19,6 +19,8 @@
   },
   "scripts": {
     "dev": "yarn watch:server & yarn watch:client",
+    "watch:server": "nodemon --watch . ./server/server.js localhost 8080 --exec babel-node",
+    "watch:client": "webpack-dev-server --hot",
     "start": "webpack-dev-server --hot",
     "build": "webpack -p --progress"
   },
