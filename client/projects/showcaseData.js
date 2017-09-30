@@ -65,6 +65,13 @@ const showcaseData = [{
     media: ''
   },
 {
+    title: 'Rides Organizer',
+    image: rides_organizer,
+    description: 'A web application I built by myself during PennApps XVI for college ministries. Rides Organizer automates the process of organizing rides for college ministries but the basic structure can be used for other purposes. This repository currently does not have many commits. I made a fresh repository for this project because I accidently had my password in some of the commits for the original repository and the process for removing it from the commits was becoming complicated.',
+    link: 'https://github.com/foerever/Rides-Organizer',
+    video: false,
+    media:''},
+{
     title: 'DataDriven',
     image: datadriven,
     description: 'A web application for HackRice 7 that organizes carpools based on google location history data. As a disclaimer, I was only able to contribute for about half the time I wanted to as I came down with a high fever. I wanted to be clear that I was not able to contribute much to this particular project!',
