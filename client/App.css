@@ -137,5 +137,13 @@ p {
   display: hidden;
 }
 
+.image-cover {
+  width: 16em;
+  height: 16em;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+  object-position: center right;
+}
 
 

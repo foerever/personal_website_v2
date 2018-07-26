@@ -48,31 +48,28 @@ class About extends Component {
                     {/* regular desktop usage */}
                     <MediaQuery query="(min-width: 801px)">
                         <div className="col-xs-4">
-                            <img src={me} width="50%" height="50%"/>   
+                            <img className = "image-cover" src={me} width="50%" height="50%"/>   
                         </div>
 
                         <div className="col-xs-7">
-                            <h1>About Me </h1>
+                            <h1> About Me </h1>
                             <p>
-                                Hi! My name is Sung Soo (Anthony) Cho. I'm currently pursuing a BS in computer science at Rice University. 
-                                I love coding and am always looking for ways to share this passion with others. 
-                                For me, this means working to build Rice's CS community through my role as Treasurer of Rice CS Club.
-                                For example, I co-founded Rice's first Learnathon, a combination of a hackathon and several workshops aimed at giving students opportunities to develop new, practical skill sets.                            
-                                As a hackathon enthusiast, it also means helping organize HackRice and actively working to build a "hacker" culture here.
+                                Hi! My name is Sung Soo (Anthony) Cho. I'm currently in my junior year pursuing a BS in computer science at Rice University. 
+                                I'm passionate about technology, entrepreneurship, space, and gardening!
                             </p>
 
                             <p>
-                                I'm also passionate about entrepreneurship. 
-                                In my first semester at Rice, my partner and I won $11,000 in funding for our projects through the LILIE New Entrepeneurs Grant and the Rice Undergraduate Elevator Pitch Competition.
-                                I've also been involved in a variety of entrepreneurial events in Houston such as Houston 3 Day Start Up.
-                                One of my goals during my time at Rice is to bring together the CS and Entrepreneurship communities.
+                                I was born in a small city in South Korea called Pohang but I grew up in Houston, TX. 
+                                While at Rice I've been most involved with the Rice CS Club and Rice Entrepreneurship Community. 
+                                I've served as Freshman Representative, Treasurer, HackRice 6 & 7 organizer, and now External Vice President for Rice CS Club.
+                                My partner and I have won 11,000 USD from the LILIE New Entrepreneurs Grant and Rice Undergraduate Elevator Pitch Competition.
                             </p>
 
                             <p>
-                                I was born in small city in South Korea called Pohang but was raised in Houston, TX where I've pursued a variety of interests ranging from gardening to breakdancing. 
-                                My greatest interest, however, has always been in creating.
-                                I grew up playing with legos, started working with VEX robots in the 5th grade, moved on to creating CAD designs and circuits in high school, and eventually fell in love with coding during an internship working with NASA's ICESat1 satellite.
-                            </p> 
+                                I'm currently working as an intern at United Airlines on the mobile development team. 
+                                We get free standby travel! So far I've used that opportunity to visit Rome, Tokyo (x2), LA (x2), New York, Denver, and Chicago (x5 for work).
+                                You can watch some of the videos I made of my travels on my <strong><a target="_blank" href="https://www.youtube.com/watch?v=80iAaaTnRXs&list=PLmDh-0r6HcGqGnQpE10EJMH8wUabNROnw&index=3">youtube channel</a></strong>.
+                            </p>
                         </div>
                     </MediaQuery>
 
@@ -82,15 +79,10 @@ class About extends Component {
                             <h1>About Me (Brief) </h1>
                             <p>
                                 Hi! My name is Sung Soo (Anthony) Cho. I'm currently pursuing a BS in computer science at Rice University. 
-                                I love coding and am always looking for ways to share this passion with others. 
+                                I'm passionate about technology, entrepreneurship, space, and gardening!
                             </p>
 
-                            <p>
-                                I'm also passionate about entrepreneurship. 
-                                In my first semester at Rice, my partner and I won $11,000 in funding for our projects through the LILIE New Entrepeneurs Grant and the Rice Undergraduate Elevator Pitch Competition.
-                            </p>
-
-                            <p>Click <strong><a id="more_info">here</a></strong> for a little more information</p>
+                            <p>Click <strong><a id="more_info">here</a></strong> for a little more of my background</p>
                         </div>
                     </MediaQuery>
 

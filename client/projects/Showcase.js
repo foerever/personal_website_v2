@@ -38,8 +38,9 @@ class Showcase extends Component {
                     <h5>Click <a href={link}><strong>here</strong></a> to learn more</h5>
                 </div>
 
-                {/* the jsx for the polaroid itself */}
-                <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                {/* the jsx for the polaroid itself 
+                col-xs-12 col-sm-6 col-md-4 col-lg-4*/}
+                <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                     <div className="polaroid_container" >
                         <div className="polaroid">
                             <div className="polaroid-image" id={this.state.uniqueId}>

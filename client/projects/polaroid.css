@@ -5,8 +5,8 @@
 .polaroid {
   background-color: #f7f7f7;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 1px rgba(0, 0, 0, 0.2);
-   margin: auto; 
-   padding: 20px 20px 50px 20px; 
+  margin: auto; 
+  padding: 20px 20px 50px 20px; 
   width: 250px;
 }
 

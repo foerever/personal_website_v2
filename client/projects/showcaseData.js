@@ -2,7 +2,6 @@ import owlsecurity from '../images/owlsecurity.png'
 import sandals from '../images/sandals.png'
 import defBeats from '../images/defBeats.jpg'
 import modulate from '../images/modulate.png'
-import pluto from '../images/pluto.jpg'
 import old_website from '../images/old_website.png'
 import current_website from '../images/current_website.png'
 import rides_organizer from '../images/rides_organizer.png'
@@ -11,7 +10,7 @@ import datadriven from '../images/datadriven.png'
 const showcaseData = [{
     title: 'Owl Security',
     image: owlsecurity,
-    description: 'An APK that uses API integration of Google Cloud Vision and IBM Watson to detect security threats and work to resolve them independently. Winner of IBM Watson Challenge at UH CodeRed Hackathon and $1000 from the Rice University Undegraduate Elevator Pitch Competition',
+    description: 'An Android app that turns any phone into an intelligent, image recognition-based security camera. Won "Best Use of IBM Watson" at CodeRED 2016 and 3rd Place at Rice Undergraduate Elevator Pitch Competition.',
     link: 'https://github.com/foerever/OwlSecurity',
     video: false,
     media: ''
@@ -27,7 +26,7 @@ const showcaseData = [{
 {
     title: 'defBeats',
     image: defBeats,
-    description: 'defBeats is a rasberry pi circuited interface that converts audio into an LED equalizer and synchronized vibration motors tor redefine the way that deaf people can experience music.',
+    description: 'A Raspberry Pi circuited interface that helps deaf people experience music using real-time Fourier transforms for raw audio decomposition and a custom built motor system.',
     link: 'https://devpost.com/software/defbeats',
     video: true,
     media: 'https://www.youtube.com/embed/nbK8Kw-7EDc'
@@ -39,14 +38,6 @@ const showcaseData = [{
     link: 'http://entrepreneurship.rice.edu/lilie-new-entrepreneurs-grant/',
     video: false,
     media: ''
-  },
-{
-    title: 'Pluto Research',
-    image: pluto,
-    description: 'Research done under the guidance of Dr. Stephen Mackwell, Director of the Lunar and Planetary Institute on Pluto Tombaugh Regio. Read the research paper for my full analysis.',
-    link: 'https://drive.google.com/file/d/0B_xBs4_GYsNDT0ZGeGFISDZncVU/view?usp=sharing',
-    video: true,
-    media: 'https://www.youtube.com/embed/yAk5NWFyCG4?ecver=2'
   },
 {
     title: 'Old Portfolio',
@@ -67,16 +58,15 @@ const showcaseData = [{
 {
     title: 'Rides Organizer',
     image: rides_organizer,
-    description: 'A web application I built by myself during PennApps XVI for college ministries. Rides Organizer automates the process of organizing rides for college ministries but the basic structure can be used for other purposes. This repository currently does not have many commits. I made a fresh repository for this project because I accidently had my password in some of the commits for the original repository and the process for removing it from the commits was becoming complicated.',
+    description: 'A web-based platform built with React and MongoDB (primarily during PennApps XVI) that automates the process of organizing rides within a small organization. Matches volunteer drivers with those who need a ride for repeat events.',
     link: 'https://github.com/foerever/Rides-Organizer',
     video: false,
     media:''},
 {
     title: 'DataDriven',
     image: datadriven,
-    description: 'A web application for HackRice 7 that organizes carpools based on google location history data. As a disclaimer, I was only able to contribute for about half the time I wanted to as I came down with a high fever. I wanted to be clear that I was not able to contribute much to this particular project! Repository is currently private my apologies!',
-    link: 'https://github.com/foerever/DataDriven',
-    video: false,
+    description: 'A web application for HackRice 7 that organizes carpools based on google location history data. As a disclaimer, I was only able to contribute for about half the time I wanted to as I came down with a high fever.',
+    link: 'https://devpost.com/software/datadriven',
     media: ''
   },
   
