@@ -32,8 +32,8 @@ class About extends Component {
                     </p>
 
                     <p>
-                        I'm currently working as an intern at United Airlines on the mobile development team. 
-                        We get free standby travel! So far I've used that opportunity to visit Rome, Tokyo (x2), LA (x2), SF, New York, Denver, and Chicago (x5 for work).
+                        This past summer I worked as an intern at United Airlines on the mobile development team. 
+                        We got free standby travel! I used that opportunity to visit Rome, Tokyo (x2), LA (x2), SF, New York, Denver, and Chicago (x5 for work).
                         You can watch some of the videos I made of my travels on my <strong><a target="_blank" href="https://www.youtube.com/watch?v=80iAaaTnRXs&list=PLmDh-0r6HcGqGnQpE10EJMH8wUabNROnw&index=3">youtube channel</a></strong>.
                     </p>
 
@@ -62,8 +62,8 @@ class About extends Component {
                             </p>
 
                             <p>
-                                I'm currently working as an intern at United Airlines on the mobile development team. 
-                                We get free standby travel! So far I've used that opportunity to visit Rome, Tokyo (x2), LA (x2), SF, New York, Denver, and Chicago (x5 for work).
+                                This past summer I worked as an intern at United Airlines on the mobile development team. 
+                                We got free standby travel! I used that opportunity to visit Rome, Tokyo (x2), LA (x2), SF, New York, Denver, and Chicago (x5 for work).
                                 You can watch some of the videos I made of my travels on my <strong><a target="_blank" href="https://www.youtube.com/watch?v=80iAaaTnRXs&list=PLmDh-0r6HcGqGnQpE10EJMH8wUabNROnw&index=3">youtube channel</a></strong>.
                             </p>
                         </div>
