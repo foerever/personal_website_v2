@@ -29,7 +29,7 @@ const showcaseData = [{
 {
   title: 'United Airlines',
   image: united,
-  description: 'Implemented a data tracking model for booking flights in the United Android App that sends user actions, booking selections, and error logs to a database for business and technical analysis. Developed a proof of concept general messaging feature and in-flight message parser that automatically logs requests such as food orders made in messaging the flight crew in the United Android App. Designed and created an Android library to accept and process payments in the United Android App.',
+  description: 'Developed a general messaging feature and in-flight message parser that automatically logs requests such as food orders made through messaging the flight crew in the United Android App. Designed and created an Android library to accept and process payments in the United Android App. Implemented a data tracking model for booking flights in the United Android App that sends user actions, booking selections, and error logs to a database for business and technical analysis.',
   link: 'https://www.united.com/',
   video: false
 }
