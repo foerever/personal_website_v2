@@ -13,9 +13,9 @@ class Internships extends Component {
             let internships = []
 
             internshipData.forEach(project => {
-            internships.push(
-                <Showcase key={project.title} {...project}></Showcase>
-            )
+                internships.push(
+                    <Showcase key={project.title} {...project}></Showcase>
+                )
             })
             return internships
         }
