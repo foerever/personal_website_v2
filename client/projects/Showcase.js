@@ -18,7 +18,7 @@ class Showcase extends Component {
         }
     }
 
-    render(){
+    render() {
         const { title, image, description, link, video, media } = this.props
         return (
             <div>
@@ -28,12 +28,12 @@ class Showcase extends Component {
                     <h1>{title}</h1>
                     <p>{description}</p>
                     {/* have not found additional images for all projects yet so for now render an empty div if no video*/}
-                    {                    
-                        video ? 
-                        <div className="video_wrapper">
-                            <iframe src={media} width="560" height="349" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen/>
-                        </div>
-                        : <div></div>
+                    {
+                        video ?
+                            <div className="video_wrapper">
+                                <iframe src={media} width="560" height="349" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+                            </div>
+                            : <div></div>
                     }
                     <h5>Click <a href={link}><strong>here</strong></a> to learn more</h5>
                 </div>
@@ -44,7 +44,7 @@ class Showcase extends Component {
                     <div className="polaroid_container" >
                         <div className="polaroid">
                             <div className="polaroid-image" id={this.state.uniqueId}>
-                                <img src={image} alt=" " height="200px"/>
+                                <img src={image} alt=" " height="200px" />
                             </div>
                             <h3>{title}</h3>
                         </div>
@@ -53,7 +53,7 @@ class Showcase extends Component {
             </div>
         );
     };
-    
+
     componentDidMount() {
         // initialize a new modal object
         var modal = new tingle.modal();
@@ -63,13 +63,13 @@ class Showcase extends Component {
         modal.setContent(document.getElementById(this.state.originalId))
 
         // open the modal when the user wants information on a showcase
-        more_information.addEventListener('click', function(){
+        more_information.addEventListener('click', function () {
             modal.open();
         });
         modal.setContent(document.querySelector('.description').innerHTML);
 
     }
- 
+
 }
 
 
