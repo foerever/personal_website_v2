@@ -32,7 +32,7 @@ class About extends Component {
                     </p>
 
                     <p>
-                        This summer I am working as a Software Engineer Intern at Cisco Meraki in San Francisco, CA. 
+                        Most recently, I worked as a Software Engineer Intern at Cisco Meraki in San Francisco, CA. 
                         I love travel and food! You can see some of the vlogs I've made on my <strong><a target="_blank" href="https://www.youtube.com/watch?v=80iAaaTnRXs&list=PLmDh-0r6HcGqGnQpE10EJMH8wUabNROnw&index=3">youtube channel</a></strong>.
                     </p>
 
@@ -61,7 +61,7 @@ class About extends Component {
                             </p>
 
                             <p>
-                                This summer I am working as a Software Engineer Intern at Cisco Meraki in San Francisco, CA. 
+                                Most recently, I worked as a Software Engineer Intern at Cisco Meraki in San Francisco, CA. 
                                 I love travel and food! You can see some of the vlogs I've made on my <strong><a target="_blank" href="https://www.youtube.com/watch?v=80iAaaTnRXs&list=PLmDh-0r6HcGqGnQpE10EJMH8wUabNROnw&index=3">youtube channel</a></strong>.
                             </p>
                         </div>
