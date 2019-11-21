@@ -33,7 +33,7 @@ class App extends Component {
                 </SectionsContainer>
                 <About/>
                 <Internships/>
-                <Projects/>
+                {/* <Projects/> */}
                 <Footer/>
             </div>
         );

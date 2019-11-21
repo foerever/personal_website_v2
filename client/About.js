@@ -25,14 +25,14 @@ class About extends Component {
                 <div className="description hide">
                     <h1>More Information</h1>
                     <p>
-                        I'm a rising senior pursuing a BS in computer science at Rice University. 
+                        I'm currently a senior pursuing a BS in computer science at Rice University. 
                         While at Rice I've been most involved with the Rice CS Club and Rice Entrepreneurship Community. 
                         I currently serve as President of Rice CS Club. I've previously served as Freshman Representative, Treasurer, HackRice 6 & 7 organizer, and External Vice President for the CS Club.
                         My partner and I have won 11,000 USD from the LILIE New Entrepreneurs Grant and Rice Undergraduate Elevator Pitch Competition.
                     </p>
 
                     <p>
-                        Most recently, I worked as a Software Engineer Intern at Cisco Meraki in San Francisco, CA. 
+                        After graduation, I look forward to joining a healthcare startup called <strong><a target="_blank" href="https://grandrounds.com/">Grand Rounds</a></strong> as a software engineer on the data platform services team.
                         I love travel and food! You can see some of the vlogs I've made on my <strong><a target="_blank" href="https://www.youtube.com/watch?v=80iAaaTnRXs&list=PLmDh-0r6HcGqGnQpE10EJMH8wUabNROnw&index=3">youtube channel</a></strong>.
                     </p>
 
@@ -49,19 +49,19 @@ class About extends Component {
                         <div className="col-xs-7">
                             <h1> About Me </h1>
                             <p>
-                                Hi! My name is Sung Soo (Anthony) Cho. I'm a rising senior pursuing a BS in computer science at Rice University. 
-                                I'm passionate about technology, entrepreneurship, space, and gardening!
+                                Hi! My name is Sung Soo (Anthony) Cho. I'm currently a senior pursuing a BS in computer science at Rice University. 
+                                I'm passionate about technology, entrepreneurship, and gardening!
                             </p>
 
                             <p>
-                                I was born in a small city in South Korea called Pohang but I grew up in Houston, TX. 
+                                I was born in a small city in South Korea called Pohang but grew up in Houston, TX. 
                                 While at Rice I've been most involved with the Rice CS Club and Rice Entrepreneurship Community. 
                                 I currently serve as President of Rice CS Club. I've previously served as Freshman Representative, Treasurer, HackRice 6 & 7 organizer, and External Vice President for the CS Club.
                                 My partner and I have won 11,000 USD from the LILIE New Entrepreneurs Grant and Rice Undergraduate Elevator Pitch Competition.
                             </p>
 
                             <p>
-                                Most recently, I worked as a Software Engineer Intern at Cisco Meraki in San Francisco, CA. 
+                                After graduation, I look forward to joining a healthcare startup called <strong><a target="_blank" href="https://grandrounds.com/">Grand Rounds</a></strong> as a software engineer on the data platform services team.
                                 I love travel and food! You can see some of the vlogs I've made on my <strong><a target="_blank" href="https://www.youtube.com/watch?v=80iAaaTnRXs&list=PLmDh-0r6HcGqGnQpE10EJMH8wUabNROnw&index=3">youtube channel</a></strong>.
                             </p>
                         </div>
@@ -73,7 +73,7 @@ class About extends Component {
                             <h1>About Me (Brief) </h1>
                             <p>
                                 Hi! My name is Sung Soo (Anthony) Cho. I'm currently pursuing a BS in computer science at Rice University. 
-                                I'm passionate about technology, entrepreneurship, space, and gardening!
+                                I'm passionate about technology, entrepreneurship, and gardening!
                             </p>
 
                             <p>Click <strong><a id="more_info">here</a></strong> for a little more of my background</p>
