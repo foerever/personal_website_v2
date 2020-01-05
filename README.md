@@ -1,6 +1,4 @@
-Current personal website built with ReactJS. 
-
-Published at anthonycho.net
+The second version of my personal website built with React
 
 # How to run locally
 In the case that you want to take a look through my website and use it as a reference for your own! In the directory you want this project in run (make sure you have node installed):
