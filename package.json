@@ -15,7 +15,7 @@
     "redux": "^3.7.1",
     "tingle.js": "^0.11.0",
     "webpack": "^3.5.4",
-    "yarn": "^0.27.5"
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "dev": "yarn watch:server & yarn watch:client",
